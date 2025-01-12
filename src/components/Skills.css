@@ -17,9 +17,9 @@
 
 .skills-container {
   display: flex;
-  flex-direction: column;
-  gap: 1.5rem;
-  align-items: center;
+  flex-wrap: wrap;
+  gap: 2.5rem;
+  justify-content: center;
 }
 
 .skill {
@@ -33,6 +33,16 @@
   align-items: center;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
   position: relative;
+}
+
+@media (max-width: 768px) {
+  .skills-container {
+    gap: 1.5rem;
+  }
+
+  .skill {
+    width: 100%;
+  }
 }
 
 .skill:hover {

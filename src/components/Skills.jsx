@@ -4,11 +4,15 @@ import "./Skills.css";
 function Skills() {
   const skills = [
     { name: "Java", level: 90 },
-    { name: "HTML5", level: 95 },
+    { name: "HTML", level: 95 },
     { name: "SpringBoot", level: 70 },
     { name: "React", level: 85 },
-    { name: "CSS3", level: 90 },
-    { name: "GoLang", level: 80 },
+    { name: "CSS", level: 90 },
+    { name: "JavaScrpit", level: 80 },
+    { name: "Android Dev", level: 80 },
+    { name: "Python", level: 80 },
+    { name: "JavaScrpit", level: 80 },
+    { name: "Data structures & Algorithms", level: 95 },
   ];
 
   return (

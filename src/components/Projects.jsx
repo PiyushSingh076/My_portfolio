@@ -7,13 +7,13 @@ import fitnessAppVideo from './media/fitness-app.mp4';
 function Projects() {
   const projects = [
     {
-      title: "Weather App",
-      description: "A weather forecasting app with real-time data and a clean, user-friendly interface.",
+      title: "NOVA AI",
+      description: "Chat gpt version of my own with features like Ask ai ,stock image generator and recipe generator",
       video: weatherAppVideo,
     },
     {
-      title: "E-commerce App",
-      description: "A fully functional e-commerce application with features like cart management and payments.",
+      title: "Task Management App",
+      description: "Schedule and update your tasks in a much better way with a progress monitor user friendly interface ",
       video: ecommerceAppVideo,
     },
     {
