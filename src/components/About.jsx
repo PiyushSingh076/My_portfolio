@@ -20,10 +20,10 @@ function About() {
           <ul>
             <li>Name: Piyush Singh</li>
             <li>Date of Birth: 04 November 2003</li>
-            <li>Address: Aquamarine Hostel, Nit Trichy, Tiruchirapalli, Tamil Nadu</li>
+            <li>Education : Electrical and Electronics Engineering ,NIT TRICHY</li>
             <li>Zip code: 620015</li>
             <li>Email: piyush1071singh@gmail.com</li>
-            <li>Phone: +91-930745890</li>
+            <li>Phone: +91-9430745890</li>
           </ul>
           <a href={cv} download>
             <button className="download-btn">Download CV</button>

@@ -1,6 +1,8 @@
 # React + Vite
 
+It serves as a foundation for building React applications with Vite, offering blazing-fast builds and a smooth development experience.
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+
 
 Currently, two official plugins are available:
 
