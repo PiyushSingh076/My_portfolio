@@ -1,25 +1,25 @@
 import React, { useState, useEffect } from 'react';
 import './Projects.css';
-import weatherAppVideo from './media/weather-app.mp4';
-import ecommerceAppVideo from './media/ecommerce-app.mp4';
-import fitnessAppVideo from './media/fitness-app.mp4';
+import friday from './media/friday.mp4';
+import task from './media/task.mp4';
+import monster from './media/monster.mp4';
 
 function Projects() {
   const projects = [
     {
-      title: "NOVA AI",
+      title: "F.R.I.D.A.Y",
       description: "Chat gpt version of my own with features like Ask ai ,stock image generator and recipe generator",
-      video: weatherAppVideo,
+      video: friday,
     },
     {
       title: "Task Management App",
       description: "Schedule and update your tasks in a much better way with a progress monitor user friendly interface ",
-      video: ecommerceAppVideo,
+      video: task,
     },
     {
-      title: "Fitness App",
-      description: "A comprehensive fitness tracking app with workout plans, progress tracking, and diet recommendations.",
-      video: fitnessAppVideo,
+      title: "Monster City",
+      description: "The ninja has to escape the monsters in this monster city and get home safe. Help him do so",
+      video: monster,
     },
   ];
 
