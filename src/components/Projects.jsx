@@ -12,8 +12,8 @@ function Projects() {
       video: friday,
     },
     {
-      title: "Task Management App",
-      description: "Schedule and update your tasks in a much better way with a progress monitor user friendly interface ",
+      title: "SmartSpend",
+      description: "Manage and monitor your expenses and transactions in the best possible way ",
       video: task,
     },
     {
